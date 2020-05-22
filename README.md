@@ -43,11 +43,13 @@
             inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
             nd6 options=201<PERFORMNUD,DAD>
             
-      gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
-      
-      stf0: flags=0<> mtu 1280
-      
-      en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+      gif0: flags=8010
+            <POINTOPOINT,MULTICAST> 
+            mtu 1280
+
+      en0: flags=8863
+            <UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> 
+            mtu 1500
             options=400<CHANNEL_IO>
             ether 60:03:08:96:dd:bb
             inet6 fe80::18a1:1e87:7a99:966c%en0 prefixlen 64 secured scopeid 0x4 
@@ -56,7 +58,9 @@
             media: autoselect
             status: active
             
-      awdl0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+      awdl0: flags=8943
+            <UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> 
+            mtu 1484
             options=400<CHANNEL_IO>
             ether 0e:56:6b:69:99:66
             inet6 fe80::c56:6bff:fe69:9660%awdl0 prefixlen 64 scopeid 0x9 
@@ -64,7 +68,9 @@
             media: autoselect
             status: active
             
-      llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+      llw0: flags=8863
+             <UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> 
+            mtu 1500
             options=400<CHANNEL_IO>
             ether 0e:56:6b:69:99:66 
             inet6 fe80::c56:6bff:fe69:9666
@@ -73,7 +79,9 @@
             media: autoselect
             status: active
             
-      utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+      utun0: flags=8051
+            <UP,POINTOPOINT,RUNNING,MULTICAST> 
+            mtu 1380
             inet6 fe80::6a93:5630:89ed:3e55
             %utun0 prefixlen 64 scopeid 0xb 
             nd6 options=201<PERFORMNUD,DAD>
