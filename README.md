@@ -2,7 +2,7 @@
 
 * config  IP add
 
-      ifconfig [interface_name] [param]
+      ifconfig [interface_name] [param] // if means interface
       
       ifconfig eth0 up // eth0 means one of the Network Interface. 網卡
       
